@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/vbiralo/accuweather"
   },
+  "engines": [
+    "node >= 0.4.7"
+  ],
   "dependencies": {
     "moment": "^2.13.0",
     "query-string": "^4.2.2",
