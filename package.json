@@ -1,7 +1,7 @@
 {
   "name": "accuweather",
   "_location": "/accuweather",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AccuWeather API wrapper for nodeJS",
   "homepage": "https://github.com/vbiralo/accuweather",
   "bugs": {
@@ -12,7 +12,7 @@
     "url": "git://github.com/vbiralo/accuweather"
   },
   "engines": [
-    "node >= 0.4.7"
+    "node >= 5.12.0"
   ],
   "dependencies": {
     "moment": "^2.13.0",
@@ -26,7 +26,7 @@
     "accuweather",
     "weather"
   ],
-  "licenses": "MIT",
+ "license": "MIT",
   "main": "index.js",
   "author": {
     "name": "Vlad Biralo",
