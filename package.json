@@ -1,7 +1,7 @@
 {
   "name": "accuweather",
   "_location": "/accuweather",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AccuWeather API wrapper for nodeJS",
   "homepage": "https://github.com/vbiralo/accuweather",
   "bugs": {
