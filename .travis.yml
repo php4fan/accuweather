@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-  - "0.10"
-  - "0.12"
-  - iojs
+  - "5.0.0"
+  - "6.10.3"
 before_install:
   - "npm install -g npm"
   - "npm config set spin false"
