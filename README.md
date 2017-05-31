@@ -2,6 +2,7 @@ AccuWeather API wrapper for nodeJS
 ==============================
 
 [![Build Status](https://travis-ci.org/VBIralo/accuweather.svg?branch=master)](https://travis-ci.org/VBIralo/accuweather)
+
 [![NPM](https://nodei.co/npm/accuweather.png?downloadRank=true&stars=true)](https://nodei.co/npm/accuweather/)
 
 The development of this module is at the earliest stage.
