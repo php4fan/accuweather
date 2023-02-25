@@ -20,7 +20,7 @@ class AccuWeather {
     time(val) {
         // Unique ID that can be used to search for a specific location.
 
-        !val ? this.time = 'hourly/1hour' : this.time = val;
+        !val ? this._time = 'hourly/1hour' : this._time = val;
         return this;
     }
 
@@ -50,7 +50,7 @@ class AccuWeather {
     }
 
     generateReqUrl() {
-        this.url = `http://api.accuweather.com/forecasts/v1/${this.time}/${this.lokey}?apikey=${this.apiKey}`;
+        this.url = `http://api.accuweather.com/forecasts/v1/${this._time}/${this.lokey}?apikey=${this.apiKey}`;
         this.query ? this.url += `&${queryString.stringify(this.query)}` : this.url;
     }
 
