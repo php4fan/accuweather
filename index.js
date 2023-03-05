@@ -50,7 +50,7 @@ class AccuWeather {
     }
 
     generateReqUrl() {
-        this.url = `http://api.accuweather.com/forecasts/v1/${this._time}/${this.lokey}?apikey=${this.apiKey}`;
+        this.url = `http://dataservice.accuweather.com/forecasts/v1/${this._time}/${this.lokey}?apikey=${this.apiKey}`;
         this.query ? this.url += `&${queryString.stringify(this.query)}` : this.url;
     }
 
